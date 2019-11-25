@@ -1,0 +1,56 @@
+body{
+    background-color: #02385C;
+}
+
+#form-container{
+    width: 285px;
+    margin: 0 auto;
+    position: absolute;
+    left: calc(50% - 142.5px);
+    top: calc(50% - 43px)
+}
+
+#confirm{
+    background-color: #EEC067;
+    width: 274px;
+    height: 40px;
+    color:white;
+    font-weight: bold;
+    border: none;
+    margin-top: 0.25em;
+}
+
+#invokerName{
+    width: 206px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    background-image: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color:rgb(138, 138, 138);
+    padding-left: 15px;
+}
+
+#server{
+    background-color: white;
+    height: 42px;
+    width: 58px;
+    font-weight: bold;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -ms-appearance: none; 
+    position: relative;
+    left: -5px;
+    font-size: 11px;
+    color:#aaa;
+
+}
+
+#userCredecials>div{
+    display: inline-block;
+    vertical-align: top;
+}

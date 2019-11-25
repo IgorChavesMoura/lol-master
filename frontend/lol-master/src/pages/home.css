@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+body{
+    font-family: Roboto;
+    /* background-color: #CCE7FA; */
+}
+
+li{
+    list-style-type: none;
+}
+
+#main{
+    background-color: #CCE7FA;
+}
+
+body{
+    margin: 0;
+}
+
+section{
+    display: inline-block;
+    width: calc(100% - 300px);
+}
+
+
+#bestChampion{
+    position: fixed;
+    right: 0;
+    top: 50px;
+    background-color: #ABDDF6;
+    height: 100%;
+    width: 300px;
+}
+
+#stats, #history{
+    width: calc(100% - 16px);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 60px;
+    
+}
+
+#history{
+    height: auto !important;
+}
+
+#stats div{
+    display: inline-block;
+
+}
+
+#stats .chart{
+    height: 400px;
+    width: 450px;
+    /* background-color: #EFC06E; */
+}
+
+#stats .fullChart{
+
+    height: 400px;
+    width: 900px;
+
+}
+
+#bestChampion>img{
+    width: 150px;
+    left: 75px;
+    position: relative;
+}
+
+#bestChampion h1, h2, li, p{
+    text-align: center;
+}
+
+#bestChampion li{
+    width: 220px;
+}
+
+#history>ul>li>div{
+    position: relative;
+    height: 100px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#history>ul>li>div:hover{
+    
+    
+    cursor: pointer;
+    border:5px solid #CCE7FA;
+    transition: all ease-in-out 0.2s;
+
+}
+
+#history div.itens, #history div.summonerSpells{
+    position: absolute;
+    top: 40px;
+}
+
+#history div.itens{
+    left: 100px;
+}
+
+#history div.summonerSpells{
+    left: 460px;
+}
+
+.ward-icon{
+    position: relative;
+    top: -2px;
+    width: 20px !important;
+}
+
+#history>ul>li>div{
+    border-bottom: 1px solid grey;
+}
+
+#history div.victory{
+    background-color: #499B62;
+
+}
+
+#history>ul>li> div.defeat{
+    background-color: #CC4343;
+
+}
+
+#history>ul>li>div>img{
+    position: absolute;
+    width: 70px;
+    top: 14px;
+    left: 10px;
+    border-radius: 50%;
+}
+
+#history div>div.itens>ul>li>img, #history div>div.summonerSpells>ul>li>img{
+    width: 40px;
+    height: 40px;
+
+}
+
+#history div>div.itens>ul>li, #history div>div.summonerSpells>ul>li, #history div>div{
+    display: inline-block;
+
+}
+
+#history .victoryOrDefeat{
+    position: absolute;
+    right: 50px;
+    width: 120px;
+}
+
+#history .victoryOrDefeat>p{
+    position: absolute;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+}
+
+#history .stats img{
+    width: 25px;
+}
+
+#history .stats div{
+    display: inline-block;
+    vertical-align: top ;
+} 
+
+#history .stats label{
+    color: white;
+}
+
+#history .stats>div{
+    position: absolute;
+    top: 10px;
+}
+
+#history .kda{
+    
+    left: 140px;
+}
+#history .gold{
+    
+    left: 240px;
+}
+#history .creep{
+    
+    left: 322px;
+}
+
+#history .damage{
+    
+    left: 402px;
+}
+#history .wards{
+    
+    left: 495px;
+}
+#history .time{
+    
+    left: 558px;
+}
+
+#history .itens li, #history .summonerSpells li{
+    margin-right: 10px;
+}
+
+#history {
+
+    z-index: 1;
+
+}
+

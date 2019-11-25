@@ -1,0 +1,44 @@
+/* 
+body { 
+
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+#container {
+
+    background-color: #CCE7FA;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    display: block;
+    padding-top:55px;
+    padding-left: 1%;
+
+}
+
+#plot_container {
+
+    width: 1211px;
+    height: 1080px;
+
+    background: url("../assets/sr-top-view-3.jpg") no-repeat; 
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#plot {
+
+    width: 100%;
+    height: 100%;
+
+}

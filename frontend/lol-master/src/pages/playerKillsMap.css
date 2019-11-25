@@ -1,0 +1,195 @@
+/* 
+body { 
+
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+#container {
+
+    background-color: #CCE7FA;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    display: block;
+    padding-top:55px;
+    padding-left: 1%;
+
+}
+
+#plot_container {
+
+    width: 1211px;
+    height: 1080px;
+
+    background: url("../assets/sr-top-view-3.jpg") no-repeat; 
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#plot {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    border-radius:4px;
+    padding: 5px;
+    background-color: white;
+}
+
+.tooltip > img {
+
+    width: 44px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.tooltip > h6 {
+
+    display: block;
+    margin: 0 auto;
+    
+
+}
+
+.tooltip > h5 {
+
+    display: block;
+    margin: 5px auto;
+    
+
+}
+
+#player-info {
+
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+
+
+}
+
+#player-info > img {
+
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+#player-info > div {
+
+    display: inline-block;
+
+}
+
+#player-info .itens > ul > li {
+
+    display: inline-block;
+    margin: 5px;
+
+}
+
+#player-info .summonerSpells > ul > li {
+
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+#player-info .stats > div {
+
+    display: inline-block;
+    position: absolute;
+    top: 67px;
+
+}
+
+#player-info .stats > div > div > img {
+
+    position: relative;
+
+}
+
+#player-info .kda{
+    
+    left: 190px;
+}
+#player-info .kda > div > img { 
+
+    
+    left: 26px;
+
+}
+
+#player-info .gold{
+    
+    left: 277px;
+}
+
+#player-info .gold > div > img { 
+
+    
+    left: 11px;
+
+}
+
+#player-info .creep{
+    
+    left: 360px;
+}
+
+#player-info .creep > div > img { 
+
+    
+    left: 4px;
+
+}
+
+#player-info .damage{
+    
+    left: 424px;
+}
+
+#player-info .damage > div > img { 
+
+    
+    left: 11px;
+
+}
+
+#player-info .wards{
+    
+    left: 513px;
+    top: 78px;
+}
+
+#player-info .wards > div > img {
+
+    left: 0px;
+    top: -12px;
+
+}
+
+#player-info .time{
+    
+    left: 582px;
+    top: 100px !important;
+}
